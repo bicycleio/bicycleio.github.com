@@ -6,12 +6,22 @@
 
     	body {
     		background-color: #99A2A2;	
-    	}
-    	#title {
-    		text-align: center;
-    		color: #555555;
-    		padding-top: 200px;
-    		font-family: "AppleII";
+            color: #555555;
+            font-family: "AppleII";
+        } 
+
+        a, a:link, a:visited, a:hover, a:active {
+            text-decoration: none;
+            color: #555555;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #title {
+            text-align: center;
+            padding-top: 200px;
     		font-size: 24pt;
 
     	}
